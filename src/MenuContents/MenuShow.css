@@ -1,0 +1,206 @@
+#out_2 {
+  /* border: 0px solid rgb(30 186 237); */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.row_2 {
+  text-align: center;
+}
+
+#intro_2 {
+  width: 15rem;
+  height: 9rem;
+  margin-bottom: 3px;
+  border: 0px solid gray;
+  border-radius: 7px;
+  background-color: rgb(35 37 47);
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+#cam_2 {
+  height: 20rem;
+  /* border: 0px solid gray; */
+  border-radius: 7px;
+  background-color: rgb(35 37 47);
+  width: 4rem;
+  overflow-y: scroll;
+}
+
+#first_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#second_2 {
+  /* border: 0px solid gray; */
+  border-radius: 7px;
+  background-color: rgb(35 37 47);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+#button_div_2 {
+  /* border: 2px solid black; */
+  width: 12rem;
+  height: 10rem;
+  padding: 0px;
+  margin: 3px;
+  margin-bottom: 1rem;
+  background-color: rgb(35 37 47);
+  transition: 0.5s;
+}
+
+#button_div_2:nth-child(1) {
+  filter: hue-rotate(0deg); /*색조,색상 번경  deg는 각도를 변경해줌*/
+}
+#button_div_2:nth-child(2) {
+  filter: hue-rotate(0deg);
+}
+#button_div_2:nth-child(3) {
+  filter: hue-rotate(0deg);
+}
+#button_div_2:nth-child(4) {
+  filter: hue-rotate(0deg);
+}
+
+#button_div_2:hover {
+  transition-delay: 0.5s;
+  background: #21ebff;
+  box-shadow: 0 0 50px #21ebff;
+}
+#button_div_2:before {
+  content: "";
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #21ebff;
+  border-left: 2px solid #21ebff;
+
+  transition: 0.5s;
+  pointer-events: none;
+}
+#button_div_2:hover:before {
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+}
+
+#button_div_2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid #21ebff;
+  border-right: 2px solid #21ebff;
+  transition: 0.5s;
+  pointer-events: none;
+}
+#button_div_2:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+#button_2 {
+  width: 12.5rem;
+  height: 10rem;
+  /* margin: 5px; */
+  font-size: 3rem;
+  border: 0px solid;
+  border-radius: 7px;
+  background-color: rgb(35 37 47);
+  color: white;
+}
+
+#show {
+  height: 8rem;
+  margin-bottom: 20px;
+  border: 0px solid gray;
+  border-radius: 7px;
+  background-color: rgb(35 37 47);
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+#send {
+  height: 40px;
+  margin-top: 15px;
+}
+
+
+
+.Logout-A{
+  float: right;
+  padding: 12px;
+  margin: 2px;
+  width: 60px;
+  background-color:rgb(35 37 47);
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  overflow: hidden;
+  float: right;
+}
+.LogoutButton{
+  border: none;
+  position: relative;
+  color: white;
+  letter-spacing: 3px;
+  background-color:rgb(35 37 47);
+}
+
+.logoutText{
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  right: -37px;
+  font-size: 0.8em;
+
+}
+.fontawesonicon{
+  color: #1565ef;
+  width: 25px;
+  height: 30px;
+  position: absolute;
+}
+
+a:hover {
+  width: 140px;
+}
+
+
+.receipt-container {
+  position: fixed;
+  margin-left: 2%;
+
+}
+
+
+/* 미디어쿼리 */
+/* 크기 줄어들 때 버튼 크기 줄어듦 */
+@media (max-width: 770px) {
+  #button_2 {
+    width: 130px;
+  }
+}
+@media (max-width: 530px) {
+  #button_2 {
+    width: 80px;
+  }
+  #MenuText {
+    display: none;
+  }
+
+  #MenuImg {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+

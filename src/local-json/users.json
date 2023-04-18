@@ -1,0 +1,9 @@
+[
+  {
+    "userEmail": "park@bs.com",
+    "userId": "good",
+    "userPw": "1234",
+    "userNick": "park",
+    "isAdmin": true
+  }
+]
